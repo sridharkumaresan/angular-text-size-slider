@@ -1,0 +1,80 @@
+body {
+  background-color: darkgray;
+  color: white;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+header {
+  background-color: #222222;
+  padding: 20px 40px;
+}
+
+section {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-size: 90%;
+  font-weight: normal;
+}
+
+article {
+  -webkit-column-count: 4;
+  column-count: 4;
+}
+
+p {
+  margin: 0px;
+}
+
+/**
+ * Text Slider Directive - CSS
+ **/
+.ang-page-font-size-sldr {
+  line-height: 100%;
+  font-size: 14px;
+}
+
+.ang-page-font-size-sldr .small-letter,.ang-page-font-size-sldr .big-letter
+{
+  font-weight: bold;
+}
+
+.ang-page-font-size-sldr .slider {
+  -webkit-appearance: none;
+  margin: 0 8px;
+}
+
+.ang-page-font-size-sldr .slider:focus {
+  outline: none;
+}
+
+.ang-page-font-size-sldr .slider::-webkit-slider-thumb {
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.ang-page-font-size-sldr .slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: white;
+  border: 0;
+}
